@@ -115,7 +115,6 @@ class FlaskOIDC(Flask):
         self.before_request(self._before_request)
 
         @self.route('/login')
-        @self.oidc.require_login
         def login():
             return redirect('/')
 
