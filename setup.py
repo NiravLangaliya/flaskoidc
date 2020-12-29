@@ -12,7 +12,7 @@ setup(
     name='flaskoidc',
     version=__version__,
     description='Flask wrapper with pre-configured OIDC support',
-    url='https://github.com/verdan/flaskoidc.git',
+    url='https://github.com/NiravLangaliya/flaskoidc.git',
     author='Verdan Mahmood',
     author_email='verdan.mahmood@gmail.com',
     packages=find_packages(exclude=['tests*']),
